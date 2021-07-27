@@ -1,0 +1,20 @@
+.container {
+    height: 91vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    background: linear-gradient(to top left,#2940D3,#39A9CB);
+}
+
+.heading{
+    margin: 0 auto;
+    font-size: 4rem;
+    align-self: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    transition: all .5s;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-weight: 500;
+}
